@@ -1,0 +1,10 @@
+- Salah satu konsep Design Pattern yang sangat populer adalah singleton Object
+- SingleTon Object adalah object yang hanya dibuat satu kali
+- Di Kotlin, membuat object singleTon sangat mudah, hanya dengan menggunakan kata kunci object
+- Cara membuat singleton object di kotlin sama seperti membuat class
+- SingleTon Object mirip sebuah Class, bisa extend Class ataupun Interface
+- Namun SingleTon Object tidak memiliki Constructors
+
+# Inner Object
+- Di Kotlin, Singleton Object bisa dibuat di dalam sebuah Class
+- Namun Berbeda dengan Inner Class, Singleton Object tidak bisa mengakses properties atau function yang ada di outer Class nya

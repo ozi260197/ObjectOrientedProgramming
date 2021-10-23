@@ -1,0 +1,21 @@
+- Di Kotlin, deklarasi type tidak hanya dalam bentuk class, ada juga interface
+- Interface adalah blueprint, prototype atau cetakan di kotlin
+- Berbeda dengan Class, Interface tidak bisa langsung dibuat sebagai Object
+- Interface tidak memiliki constructor
+- hanya memiliki properties
+- Interface hanya bisa diturunkan, dan biasanya interface digunakan sebagai kontrak untuk class - class turunannya
+- Secara standar, semua properties dan function di interface adalah abstract
+- Tidak perlu menggunakan kata kunci abstract di dalam Interface
+
+# Concreate Function di Interface
+- Function di Interface memiliki pengecualian, tidak harus abstract
+- Kita bisa membuat concreate function di Interface, artinya function tersebut tidak wajib untuk dibuat ulang di child class nya
+
+# Multiple Inheritance dengan Interface
+- Inheritance di Class hanya boleh memiliki satu class parent
+- Di Interface, Sebuah Class Child bisa memiliki banyak Interface Parent
+
+# Inheritance antar Interface
+- Tidak hanya Class yang punya kemampuan Inheritance
+- Interface juga bisa melakukan Inheritance dengan Interface lain
+- Namun Interface tidak bisa melakukan Inheritance dengan Class

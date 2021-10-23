@@ -1,0 +1,9 @@
+- Kotlin mendukung type Alias
+- TYpe Alias adalah membuat nama berbeda dari tipe data yang telah ada
+- Biasa nya ini digunakan ketika ada tipe data dengan nama yang sama, atau untuk mempersingkat
+    tipe data sehingga kita tidak perlu menulis nya terlalu panjang
+
+# Type Alias untuk function
+- type Alias tidak hanya untuk digunakan untuk class saja, namun bisa untuk function
+- Dengan menggunakan type Alias untuk function, kita akan lebih mudah untuk menggunakan function untuk parameter,
+    karena lebih sederhana

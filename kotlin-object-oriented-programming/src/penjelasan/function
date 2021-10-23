@@ -1,0 +1,2 @@
+- Selain Properties/field/Attributes, didalam class, kita juga bisa mendeklarasikan Function
+- Function yang kita deklarasikan didalam Class, secara otomatis menjadi Behaviour si object yang dibuat dari Class tersebut

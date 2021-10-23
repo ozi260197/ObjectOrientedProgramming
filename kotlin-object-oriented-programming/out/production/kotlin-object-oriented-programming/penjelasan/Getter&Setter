@@ -1,0 +1,8 @@
+- Didalam pemrograman java, ada sebuah konsep yang bernama Getter and Setter saat membuat properties
+- Getter adalah function yang dibuat untuk mengambil data properties
+- Setter adalah function untuk mengubah data properties
+- Di kotlin, kita tidak perlu manual untuk membuat function Getter and Setter nya, karena sudah difasilitasi sehingga lebih mudah
+
+# Optional Getter Setter
+- Getter dan Setter tidak wajib dideklarasikan semua di kotlin
+- Kita bisa hanya mendeklarasikan hanya Getter atau hanya Setter

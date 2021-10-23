@@ -1,0 +1,15 @@
+- Class, Interface, Constructor, Function, dan Properties (Termasuk Getter and Setter) bisa memiliki
+    Visibility Modifiers di Kotlin
+- Ada 4 Visibility Modifier di Kotlin, yaitu: public, private, protected, internal
+- Secara Standard visibility modifiers di kotlin adalah public
+
+# Perbedaan Tiap Visibility Modifier
+    Visibility Modifier                         |                           Keterangan
+    - Public                                       Jika tidak menyebutkan, maka secara otomatis visibility modifiers nya
+                                                   adalah public, yang artinya bisa di akses dari manapun
+
+    - Private                                      Artinya hanya bisa diakses di tempat deklarasi nya
+
+    - Protected                                    Artinya hanya bisa di akses di tempat deklarasi, dan juga turunan nya
+
+    - internal                                     Artinya hanya bisa di akses di module / Project yang sama

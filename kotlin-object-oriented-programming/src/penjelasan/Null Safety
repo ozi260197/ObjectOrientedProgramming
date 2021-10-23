@@ -1,0 +1,10 @@
+- Di Java kita sering mengenal error bernama NullPointerException, Error ini terjadi ketika kita mengakses properties atau function di null object
+- Di Kotlin, Hal ini sangat jarang terjadi, karena sejak awal di kotlin tidak di rekomendasikan untuk menggunakan nullable type
+- Walaupun akan menggunakan nullable type, di Kotlin kita memberitahu secara explisit menggunakan karakter ? (Tanda tanya)
+- Bagaimana mengatasi nullPointerException
+
+# !! operator
+- Jika kita mencintai NullPointerException :D
+- Dan Kita benar-benar yakin bahwa variable tersebut tidak null
+- Maka kita bisa menggunakan kata kunci !! untuk mengkonversi dari data yang nullable menjadi data tidak nullable
+- Tapi Ingat konsekuensinya, Jika datanya sampai null, maka akan terjadi error

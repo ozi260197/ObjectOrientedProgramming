@@ -1,0 +1,7 @@
+- Kadang kita sering membuat class yang hanya digunakan sebagai representasi dari data
+- Data Class cocok digunakan dalam hal ini
+- Data Class merupakan Class yang secara otomatis akan membuatkan function equals, hashCode, toString, dan Copy dari semua properties yang terdapat di primary constructor yang dimiliki oleh data Class
+
+# Copy Data Class
+- Data Class memiliki function copy yang bisa digunakan untuk menduplikasi object
+- Bahkan metody copy yang terdapat di Data Class bisa digunakan untuk menduplikasi sekaligus mengubah properties nya

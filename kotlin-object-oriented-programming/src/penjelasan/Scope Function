@@ -1,0 +1,63 @@
+- Kotlin memiliki standar library yang berisikan beberapa function yang bisa digunakan untuk
+    mengeksekusi object dengan mudah memanfaatkan lambda expression
+- function function tersebut adalah let, run, with, apply, dan also
+
+# Let Function
+- Let function bisa digunakan sebagai reference block agar kita bisa lebih mudah ketika ingin
+    memanipulasi sebuah object
+- Let Function memiliki parameter object itu sendiri, sehingga kita bisa menggunakan kata kunci it
+    untuk mendapatkan referensi terhadap object tersebut
+
+# Run Function
+- Run function mirip dengan let function
+- Yang membedakan adalah, pada run function tidak ada parameter pada lambda nya, Sehingga kita
+    Tidak bisa mengakses reference object menggunakan kata kunci it.
+- Namun kita masih bisa menggunakan kata kunci this
+
+# Apply function
+- Apply function hampir sama dengan run function
+- yang membedakan adalah return value dari apply function ada reference object itu sendiri
+
+# Also function
+- Also function mirip dengan let function
+- yang membedakan adalah, pada also function, return value nya adalah reference ke object itu sendiri
+
+# With Function
+- With function mirip dengan run function, menggunakan reference this
+- Yang membedakan adalah, with function bukanlah extension function, jadi tidak bisa digunakan dari objectnya
+- kita harus memanggil with funtion secara manual
+
+
+
+# Kesimpulan
+
+  function          object reference                return value                Is Extensions function
+
+  let               it                              lambda result               Yes
+  run               this                            lambda result               Yes
+  run               -                               lambda result               No:Called without the context object
+  with              this                            lambda result               No:takes the context object as an argument
+  apply             this                            Context Object              Yes
+  also              it                              Context Object              Yes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

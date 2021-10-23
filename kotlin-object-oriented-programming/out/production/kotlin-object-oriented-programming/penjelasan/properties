@@ -1,0 +1,9 @@
+Properties / field / Attribute adalah data yang bisa kita sisipkan didalam object
+Namun sebelum kita bisa memasukan data di Properties, kita harus mendeklarasikan data apa saja yang dimiliki object tersebut didalam deklarasi class nya
+Membuat Properties sama seperti membuat variable, bisa mutable dan immutable
+
+*Manipulasi Properties*
+- Properties yang ada di object, bisa kita manipulasi, tergantung mutable dan immutable
+- Jika mutable, berarti kita bisa merubah data properties nya, namun jika immutable, kita hanya bisa mengambil data properties nya saja
+- Untuk manipulasi data Properties, sama seperti cara variable
+- Untuk mengakses data properties, kita butuh kata kunci .(titik) setelah nama object dan diikuti nama properties nya

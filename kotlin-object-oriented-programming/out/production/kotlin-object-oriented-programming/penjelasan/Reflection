@@ -1,0 +1,4 @@
+- Reflection adalah kemampuan melihat struktur aplikasi kita pada saat berjalan
+- Reflection biasanya sangat berguna saat kita ingin membuat library ataupun framework, sehingga bisa meng-otomatisasi pekerjaan
+- Untuk mengakses Reflection Class dari sebuah object, kita bisa menggunakan kata kunci ::class,
+    atau bisa langsung dari nama Class::class

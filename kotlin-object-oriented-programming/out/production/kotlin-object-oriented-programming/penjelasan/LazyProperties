@@ -1,0 +1,3 @@
+- Selain Delegating di Class, Kotlin mendukung delegating di properties
+- Salah satu implementasi delegating properties yang sudah di sediakan oleh kotlin adalah lazy properties
+- Lazy adalah standar libarary yang telah disediakan agar properties baru di inisialisasi ketika properties itu di akses

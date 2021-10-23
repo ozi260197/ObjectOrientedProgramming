@@ -1,0 +1,7 @@
+- Sealed Class Merupakan Jenis Class yang di design untuk Inheritance
+- Sealed Class tidak bisa diinstansiasi menjadi object, dan secara standar sealed class merupakan abstract class
+- Sealed Class Sangat cocok digunakan pada Class Parent
+
+# Sealed Class di When Expression
+- Sealed Class sangat berguna saat kita menggunakan when expression
+- Dengan menggunakan Sealed Class, kita bisa membatasi hanya class turunan nya yang perlu di check

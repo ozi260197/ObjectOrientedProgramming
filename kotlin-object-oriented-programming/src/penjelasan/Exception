@@ -1,0 +1,21 @@
+- Saat membuat program, kita pasti selalu berhadapan dengan error
+- Banyak sekali jenis error, baik itu error yang sudah diduga, seperti validation error,
+    atau error yang tak diduga, seperti ada jaringan error, koneksi ke database error, dan lain lain
+- Error di kotlin di presentasikan dengan exception, dimana semua tipe data error pasti akan selalu class turunan dari Throwable
+- Untuk membuat error di kotlin sangatlah mudah, kita bisa menggunakan kata kunci throw, diikuti dengan object error nya
+
+# Try Catch
+- Jika dalam program Kotlin kita terjadi exception, maka secara otomatis program kita akan terhenti
+- Kadang kita tidak ingin kejadian seperti itu
+- Di Kotlin, kita bisa menangkap exception, lalu melakukan sesuatu jika terjadi error
+- Try Catch di kotlin digunakan untuk mencoba melakukan sesuatu, jika terjadi error maka akan ditangkap dan kita bisa memberi reaksi sesuai dengan yang kita mau
+
+# Multiple Catch
+- Saat kita mengeksekusi sebuah kode program di blok try, bisa dimungkinkan tidak hanya terjadi satu jenis exception,
+    bisa saja terjadi beberapa jenis exception
+- Di Kotlin, kita bisa menggunakan multiple block Catch, untuk menangkap jenis exception yang berbeda
+
+# Finally
+- Finally adalah block kode yang bisa ditambahkan di Try Catch
+- Block Finally akan selalu di eksekusi setelah kode perogram try catch di eksekusi, baik itu sukses ataupun gagal
+- ini cocok untuk menempatkan kode yang memang harus di lakukan tidak perduli baik itu kodenya sukses atau gagal

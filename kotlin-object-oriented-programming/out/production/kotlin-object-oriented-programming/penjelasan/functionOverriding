@@ -1,0 +1,3 @@
+- function overriding adalah kemampuan membuat ulang function yang sudah ada di class parent
+- Secara standard, function di class adalah final, tidak bisa dibuat ulang di class child
+- Agar function bisa dibuat ulang di class child, kita harus menggunakan kata kunci open

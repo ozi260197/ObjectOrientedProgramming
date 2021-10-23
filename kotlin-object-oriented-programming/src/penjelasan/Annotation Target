@@ -1,0 +1,5 @@
+- Kotlin Annotation berjalan baik dengan java annotation
+- Namun kadang kita ingin menempatkan posisi annotation sesuai dengan yang kita mau agar bisa terbaca di java dengan baik
+- Biasanya kejadian ini terjadi ketika kita menggunakan kotlin, namun menggunakan framework java,
+    sehingga target lokasi annotation nya harus sesuai dengan yang biasa digunakan framework tersebut di java
+- Di Kotlin kita bisa menggunakan @Target:nama annotation nya untuk menentukan lokasi target Annotation akan ditempatkan dimana

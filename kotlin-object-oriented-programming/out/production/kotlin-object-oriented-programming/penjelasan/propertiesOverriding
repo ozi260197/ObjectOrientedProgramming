@@ -1,0 +1,3 @@
+- Selain membuat ulang function di Class child, di Kotlin Juga bisa membuat ulang properties
+- Secara standard, properties di Class bersifat final, Tidak bisa dibuat ulang di Class child nya
+- Agar bisa dibuat ulang, kita harus menggunakan kata kunci open

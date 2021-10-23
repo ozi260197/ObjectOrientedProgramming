@@ -1,0 +1,2 @@
+- Initializer Block adalah blok kode yang akan dieksekusi ketika constructor di panggil
+- Kita bisa memasukan kode program didalam initializer block

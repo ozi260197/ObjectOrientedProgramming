@@ -1,0 +1,3 @@
+- this adalah keyword yang bisa digunakan untuk mereferensikan object saat ini
+- this hanya bisa digunakan didalam Class itu sendiri
+- Biasanya, this digunakan untuk mengakses properties yang tertutup oleh parameter dengan nama yang sama

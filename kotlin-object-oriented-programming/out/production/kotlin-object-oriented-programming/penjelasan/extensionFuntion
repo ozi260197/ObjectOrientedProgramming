@@ -1,0 +1,12 @@
+- Pada materi Kotlin dasar kita sudah membahas tentang extension function, yaitu menambahkan function pada tipe data yang sudah ada
+
+# Extension Bukanlah function di Class
+- Perlu diperhatikan, Bahwa saat membuat extension function, kita tidak memodifikasi class aslinya
+- Extension Function hanyalah sebuah function bantuan yang artinya, kita tidak bisa mengakses data
+    private atau protected dari class tersebut
+
+
+# Nullable Extension Function
+- Secara Standard, extension function hanya bisa untuk data yang tidak null
+- Jika kita ingin membuat extension function yang bisa digunakan untuk data yang bisa null,
+    kita perlu menggunakan kata kunci ? (Tanda Tanya)

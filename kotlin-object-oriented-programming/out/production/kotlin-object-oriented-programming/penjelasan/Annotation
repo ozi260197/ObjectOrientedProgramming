@@ -1,0 +1,21 @@
+- Annotation Adalah menambahkan metadata ke kode program yang kita buat
+- Tidak semua orang membutuhkan annotations, biasanya annotations digunakan saat kita ingin membuat library / framework
+- Annotation sendiri bisa di akses menggunakan Reflection
+- Untuk membuat Class Annotation, kita bisa menggunakan kata kunci annotations sebelum membuat Class tersebut
+- Annotation hanya boleh memiliki properties via primary constructor, tidak boleh memiliki members lain nya
+    (function atau properties di body)
+
+# Atrribute Annotation
+
+    Attribute                                       |                        Keterangan
+    @Target                                                Memberitahu Annotation bisa digunakan dimana? Class,
+                                                           function, properties, dan lain-lain
+
+    @Retention                                             Memberitahu Annotation apakah disimpan di hasil kompilasi,
+                                                           dan apakah bisa dibaca oleh reflection?
+
+    @Repeatable                                            Memberitahu Annotation apakah bisa digunakan lebih dari
+                                                           sekali di target yang sama?
+
+    @MustBeDocumented                                      Memberitahu Annotation apakah perlu di dokumentasikan di
+                                                           public API

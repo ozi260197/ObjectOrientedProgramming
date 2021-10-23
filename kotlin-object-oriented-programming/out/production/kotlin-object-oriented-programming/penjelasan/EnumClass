@@ -1,0 +1,10 @@
+- Enum Class merupakan representasi dari Class yang sudah tetap nilai nya
+- Biasa nya enum class digunakan untuk jenis data yang sudah Baku, Seperyi Jenis Kelamin, Arah Mata Angin, dan sejenisnya
+- Untuk membuat Enum Class, kita bisa menggunakan kata kunci enum sebelum deklarasi Class nya
+- Kita tidak bisa membuat object dari Class enum, namun kita bisa mendeklrasikan langsung object yang tersedia untuk Enum Class Tersebut
+
+# Properties & Function di enum Class
+- Enum Class adalah class seperti biasa pada umumnya
+- Enum Class bisa memiliki properties ataupun Function
+- Namun jika properties nya di set menggunakan Constructors, maka saat pembuatan object enum,
+    wajib diisi, dan jika terdapat abstract function, wajib di override pada saat pembuatan object enum

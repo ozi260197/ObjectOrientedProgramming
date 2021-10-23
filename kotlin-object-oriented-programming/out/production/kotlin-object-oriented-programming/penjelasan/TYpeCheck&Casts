@@ -1,0 +1,23 @@
+- Dalam object oriented Programmming, kita akan banyak bertemu banyak sekali tipe data (Class) dan pewarisan (Inheritance)
+- Kadang kita butuh melakukan Pengecekan tipe data, atau melakukan konversi data
+
+# is dan !is Operator
+- is digunakan untuk melakukan pengecekan apakah sebuah data merupakan tipe data tertentu
+- !is digunakan untuk melakukan pengecekan apakah sebuah data bukan merupakan tipe data tertentu
+
+# Smart Casts
+- Kotlin memiliki mekanisme konversi data secara otomatis setelah kita melakukan pengecekan menggunakan is
+- setelah kita melakukan pengecekan menggunakan is, maka secara otomatis data yang kita cek akan berubah menjadi tipe data yang kita check
+
+# Casts di When Expression
+- Selain menggunakan if untuk melakukan pengecekan tipe data dan konversi tipe data
+- Kita juga bisa menggunakan when expression
+- Pengguna when expression akan lebih sederhana dibanding if expression dalam melakukan pengecekan dan konversi tipe data
+
+# Unsafe Casts
+- Kotlin Juga mendukung konversi tipe data secara paksa menggunakan kata kunci as
+- Namun konversi menggunakan as sangat tidak aman jika ternyata tipe data nya tidak sesuai
+
+# Safe Nullable Casts
+- Penggunaan as ssangat tidak aman, namun kadang bisa menjadikan nya aman, dengan menggunakan kata kunci as?
+- Dengan menggunakan kata kunci as? secara otomatis jika gagal melakukan konversi, akan diubah menjadi null

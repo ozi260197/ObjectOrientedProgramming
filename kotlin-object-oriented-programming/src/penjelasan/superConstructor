@@ -1,0 +1,3 @@
+- Kata kunci super tidak hanya dapat diakses oleh function atau properties di Class Parent
+- Kata kunci super juga bisa digunakan untuk mengakses constructor Class Parent
+- Mengakses Constructor Class Parent hanya bisa dilakukan didalam constructor Class Child

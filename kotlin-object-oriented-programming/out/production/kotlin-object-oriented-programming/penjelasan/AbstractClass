@@ -1,0 +1,2 @@
+- Saat kita membuat Class, kita bisa menjadikan sebuah class menjadi abstract
+- Abstract Class artinya, class tersebut tidak bisa dibuat sebagai object, hanya bisa diturunkan

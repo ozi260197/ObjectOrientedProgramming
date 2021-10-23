@@ -1,0 +1,7 @@
+- Salah satu design pattern lain yang populer adalah Delegation
+- Delegation sederhananya adalah meneruskan properties atau function ke object yang lain
+- Kotlin mendukung delegation tanpa harus membuat kode secara manual
+
+# Override Delegation
+- Dalam Delegation, properties dan funtion secara otomatis akan di delegasikan ke object yang dipilih
+- namun kita bisa meng-override properties dan function jika kita mau

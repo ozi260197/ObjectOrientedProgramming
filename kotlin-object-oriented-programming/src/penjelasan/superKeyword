@@ -1,0 +1,2 @@
+- Kadang kita ingin mengakses function atau properties milik Class Parent yang sudah dibuat ulang oleh Class child
+- Untuk mengakses function atau properties milik Class Parent, kita bisa menggunakan kata kunci Super

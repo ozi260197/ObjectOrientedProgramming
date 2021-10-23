@@ -1,0 +1,11 @@
+- Destructuring declaration adalah membuat multiple variables dari sebuah object
+- Destructuring tidak bisa dilakukan untuk semua object, hanya object yang memiliki function componentX() yang bisa dilakukan destructuring
+- saat kita membuat data Class, secara otomatis akan dibuatkan function componentX() Sesuai dengan jumlah parameternya
+
+# Destructuring di function
+- Destructuring declarations juga bisa dilakukan ketika memanggil function
+- Dengan ini, Seakan akan kita bisa mengembalikan multiple return value pada function
+
+# Underscore untuk variable tidak digunakan
+- Kadang kita hanya ingin melakukan destructuring pada beberapa variable, dan menghiraukan variable lainnya
+- Untuk menghiraukan suatu variable, kita bisa menggunakan kata kunci _(Underscore)

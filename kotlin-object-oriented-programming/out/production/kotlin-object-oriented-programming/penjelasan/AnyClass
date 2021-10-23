@@ -1,0 +1,2 @@
+- Di Kotlin, semua Class yang dibuat tanpa Class Parent, sebenarnya secara otomatis akan menjadi Class child dari Class Any
+- Any adalh SuperClass untuk semua Class yang kita buat di Kotlin

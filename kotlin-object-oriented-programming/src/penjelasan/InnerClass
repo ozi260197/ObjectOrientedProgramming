@@ -1,0 +1,5 @@
+- Kita bisa membuat Class didalam Class
+- Di Kotlin, Kita bisa membuat Class (Inner) didalam Class (Outher)
+- Inner Class (Didalam) Class (Outher)
+- Namun Walaupun Class Inner Tersebut berada didalam Class Outher, Namun Class Inner tidak bisa mengakses data yang ada didalam Class Outher
+- Agar Class Inner Bisa mengakses data yang ada didalam Class Outher, kita bisa menggunakan kata kunci inner

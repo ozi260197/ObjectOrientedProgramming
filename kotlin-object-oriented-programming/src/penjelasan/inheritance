@@ -1,0 +1,4 @@
+- Inheritance atau pewarisan adalah kemampuan untuk menurunkan sebuah Class ke Class lain
+- Dalam artian, kita bisa membuat Class Parent dan Class Child
+- Di Kotlin, tiap Class Child, Hanya bisa punya satu Class parent, namun satu Class parent bisa punya banyak Class Child
+- Secara Standard, di Class yang dibuat di kotlin adalah final (Tidak bisa di wariskan), Agar bisa di wariskan kita harus menggunakan kata kunci open

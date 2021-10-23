@@ -1,0 +1,2 @@
+- Companion Object adalah kemampuan membuat Inner object didalam Class, tanpa harus menggunakan nama Object
+- Companion Object Secara otomatis akan menggunakan nama Companion, atau bisa langsung diakses lewat nama Class nya

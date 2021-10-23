@@ -1,0 +1,3 @@
+- Function Overloading adalah kemampuan membuat function dengan nama yang sama didalam class
+- Untuk membuat function dengan nama yang sama, kita wajib menggunakan parameter yang berbeda,
+    bisa tipe parameter juga yang berbeda, atau jumlah parameter yang berbeda

@@ -1,0 +1,5 @@
+- Saat kita ingin membuat object, maka kita di wajibkan untuk menggunakan deklarasi Class yang lengkap
+- Namun, Kotlin mendukung pembuatan object dari Class yang bahkan belum lengkap
+- Bahkan, Di Kotlin, kita bisa membuat object dari Interface
+- Kemampuan ini dinamakan anonymous Class
+- Untuk membuat Anonymouse Class, kita bisa menggunakan kata kunci object diikuti dengan deklarasi Class Child seperti pada pewarisan

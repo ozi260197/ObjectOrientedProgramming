@@ -1,0 +1,2 @@
+- Saat kita membuat class yang abstract, kita bisa membuat properties abstract dan function abstract di dalam class tersebut
+- Properties dan function yang bersifat abstract, artinya wajib dibuat ulang di class child nya

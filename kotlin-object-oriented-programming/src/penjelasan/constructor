@@ -1,0 +1,3 @@
+- Saat kita  membuat object, maka kita seperti memanggil sebuah function
+- Di dalam class kotlin, kita bisa membuat constructor, Constructor mirip sebuah function yang akan dipanggil saat pertama kali object dibuat
+- Mirip seperti function, kita bisa memberikan parameter pada Constructor

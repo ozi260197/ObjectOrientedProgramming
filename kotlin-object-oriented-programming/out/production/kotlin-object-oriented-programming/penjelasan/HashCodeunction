@@ -1,0 +1,4 @@
+- hashCode adalah function yang digunakan sebagai representasi angka unit untuk object yang kita buat
+- Function hashCode sangat berguna saat kita ingin mengkonversi object kita menjadi angka
+- Salah satu penggunaan hashCode yang banyak dilakukan adalah di struktur data,
+- misal untuk memastikan tidak ada data duplicate, agar lebih mudah di cek nilai hashCode nya, jika hashCode sama, maka dianggap object nya sama

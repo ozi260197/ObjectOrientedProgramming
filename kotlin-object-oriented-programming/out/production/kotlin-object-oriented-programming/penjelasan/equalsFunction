@@ -1,0 +1,3 @@
+- Di Kotlin, semua object bisa dibandingkan menggunakan operasi == atau !=
+- Saat kita membandingkan object menggunakan operasi == atau !=, sebenernya Kotlin akan menggunakan function equals milik Class Any
+- Untuk mengubah cara membandingkanya, kita bisa meng-override function equals milik Class Any

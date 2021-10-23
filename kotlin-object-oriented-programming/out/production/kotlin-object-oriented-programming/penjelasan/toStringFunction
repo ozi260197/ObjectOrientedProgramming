@@ -1,0 +1,4 @@
+- toString() adalah function yang digunakan untuk memberitahu representasi String dari Object
+- Saat kita melakukan println Object, sebenarnya function toString() akan dipanggil
+- Standarnya, function toString() akan mengembalikan referensi kode unik dari object
+- Kita bisa meng-override function toString() Jika ingin mengubah representasi dari String pada object kita
